@@ -1,0 +1,26 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>To-do-List</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <input type="text" placeholder="Add a new task" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
